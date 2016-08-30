@@ -3,8 +3,11 @@ Mehdi Ghaderi
 
 -------------------     ----------------------------
 1 email :                        mehdi.pro@outlook.com
-lahijan                         https://tlgrm.me/covia
-iran                           0930
+---------
+2 telegram:                     https://tlgrm.me/covia
+---------
+3 iran,lahijan
+                      
 -------------------     ----------------------------
 
 Education
