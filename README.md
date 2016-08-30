@@ -2,8 +2,8 @@ Mehdi Ghaderi
 ============
 
 -------------------     ----------------------------
-1 MyAddress                        mehdi.pro@outlook.com
-lahijan                         @tlgrm.me/covia
+1 email :                        mehdi.pro@outlook.com
+lahijan                         https://tlgrm.me/covia
 iran                           0930
 -------------------     ----------------------------
 
