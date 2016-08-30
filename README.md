@@ -1,63 +1,93 @@
-# Responsive Resume
+Johnny Coder
+============
 
-##Introduction
-This is a simple template to help you create a mobile first responsive resume.
-Feel free to download and use to suit your needs. No attribution is required, though I would love to see what you make!
-If you have any questions feel free to contact me via twitter <a href="http://www.twitter.com/philipcdavis">@philipcdavis<a>.
-if you notice anything that is broken or that could be improved you can <a href="https://github.com/philipcdavis/responsive-resume/issues">open an issue</a>.
+-------------------     ----------------------------
+1 MyAddress                        email@example.com
+MyTown 1000                          @twitter_handle
+MyCountry                           1800 my-phone-nr
+-------------------     ----------------------------
 
+Education
+---------
 
+2010-2014 (expected)
+:   **PhD, Computer Science**; Awesome University (MyTown)
 
-##Setup Instructions
-####Step 1: Download and Extract
-<a href="https://github.com/philipcdavis/responsive-resume/archive/master.zip">Download</a> and extract the template and put it in whatever folder you want.
+    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
+     Estimation Problem*
 
-####Step 2: Import a headshot
-Once you have a picture you want to use import it into the `/img` folder and override the `background.jpg` file.
-This image is set as the background image of the `header` in style.css, use a high quality photo with padding on all sides for best results.
+2007-2010
+:   **BSc, Computer Science and Electrical Engineering**; University of
+    HomeTown (HomeTown)
 
-####Step 3: Edit the index.html file
-Using your favorite text editor open your index.html file to fill out content, update your name, skills, and information.
-Feel free to remove or rearrange the content blocks to fit your needs.
+    *Minor: Awesomeology*
 
-####Step 4: Host your site
-<a href="https://pages.github.com/">Github pages</a> allows your to host for free and there is plenty of documentation on how to get set up.
+Experience
+----------
 
+**Your Most Recent Work Experience:**
 
+Short text containing the type of work done, results obtained,
+lessons learned and other remarks. Can also include lists and
+links:
 
-##Grid
-The 6 column mobile first grid is used by wrapping each row with the `.row` class.
-Each row should have grid units that add up to 6 (with the exception of the Gallery).
-You can view the grid with its classes on the <a href="http://philipcdavis.com/responsive-resume/">homepage</a>.
+* First item
 
-##Custom Blocks
-This template comes with multiple componants that can be removed or rearranged to suit your particular needs.
-These are build on top of the grid, but container some useful layouts that you can use depending on your situation.
-Each block is contained by the `<section>` tags. With some blocks it is helpful to include a seperating `<hr>` tag.
-Below you will find information for each block. If you notice anything that should be improved please <a href="https://github.com/philipcdavis/responsive-resume/issues">open an issue</a>.
+* Item with [link](http://www.example.com). Links will work both in
+  the html and pdf versions.
 
-####Gallery
-The Gallery is useful for displaying a grid of images. It is similar to the normal grid with two exceptions.
+**That Other Job You Had**
 
-1. Each grid item has a top and bottom margin.
-2. The `.grid-2` and `.grid-3` classes have a default two column layout instead of normal one column layout.
+Also with a short description.
 
-For the gallery you can wrap everything inside a `.row` class.
+Technical Experience
+--------------------
 
-####Testimonials
-This section is great for highlighting some things other people have said about you.
-These images have a fixed height in order to keep everything aligned.
+My Cool Side Project
+:   For items which don't have a clear time ordering, a definition
+    list can be used to have named items.
 
-####Spotlight
-The Spotlight section is useful for highlighting one project or accomplishment.
-In order to keep the themeing consistant with the project you are able to edit the `.spotlight` classes in style.css.
-The image you use for an icon can be transparent, it will be centered and restricted within the `.grid-3` class.
-It's important that this block is outside of the container so that the bar can extend the full width of the screen.
+    * These items can also contain lists, but you need to mind the
+      indentation levels in the markdown source.
+    * Second item.
 
-####Education
-This section is fairly self explanatory.
-You want to watch out for word-wrap issues that cause text to look awkward, if you need more room you can change the `<h2>` tag to a `<h3>`.
+Open Source
+:   List open source contributions here, perhaps placing emphasis on
+    the project names, for example the **Linux Kernel**, where you
+    implemented multithreading over a long weekend, or **node.js**
+    (with [link](http://nodejs.org)) which was actually totally
+    your idea...
 
-####Experiance
-This is a great section to bring some of the more formal resume elements onto the web.
-All the jobs are seperated by a bottom-border with the exception of the last one.
+Programming Languages
+:   **first-lang:** Here, we have an itemization, where we only want
+    to add descriptions to the first few items, but still want to
+    mention some others together at the end. A format that works well
+    here is a description list where the first few items have their
+    first word emphasized, and the last item contains the final few
+    emphasized terms. Notice the reasonably nice page break in the pdf
+    version, which wouldn't happen if we generated the pdf via html.
+
+:   **second-lang:** Description of your experience with second-lang,
+    perhaps again including a [link] [ref], this time placing the url
+    reference elsewhere in the document to reduce clutter (see source
+    file). 
+
+:   **obscure-but-impressive-lang:** We both know this one's pushing
+    it.
+
+:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
+
+[ref]: https://github.com/githubuser/superlongprojectname
+
+Extra Section, Call it Whatever You Want
+----------------------------------------
+
+* Human Languages:
+
+     * English (native speaker)
+     * ???
+     * This is what a nested list looks like.
+
+* Random tidbit
+
+* Other sort of impressive-sounding thing you did
