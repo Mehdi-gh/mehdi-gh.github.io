@@ -3,8 +3,8 @@ Mehdi Ghaderi
 
 -------------------     ----------------------------
 1 MyAddress                        mehdi.pro@outlook.com
-MyTown 1000                          @twitter_handle
-iran                           1800 my-phone-nr
+lahijan                         @tlgrm.me/covia
+iran                           0930
 -------------------     ----------------------------
 
 Education
