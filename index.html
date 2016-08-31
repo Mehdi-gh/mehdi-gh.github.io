@@ -9,6 +9,9 @@
 	<!-- stylesheets -->
 	<link rel="stylesheet" href="style.css" type="text/css" />
 	<link rel="stylesheet" href="circlecovia.css" type="text/css" />
+	<link rel="stylesheet" href="styleCloude.css" type="text/css" />
+	<link rel="stylesheet" href="styleContact.css" type="text/css" />
+
 	<!-- favicon -->
 	<link rel="shortcut icon" href="img/favicon.ico">
 	
@@ -21,8 +24,9 @@
 	
 	<!-- Header-->
 	<header>
-		<h1>mehdi ghaderi</h1>
-		<p>android development</p>
+    
+		<h1>covia</h1>
+		<p>android,ios,web development</p>
 		<div class="icon">
   <div class="circle"></div>
   <div class="circle2"></div>
@@ -59,13 +63,13 @@
 		<!-- Testimonials-->	
 		<section class="testimonial">
 			<div class="row">
-				<div class="grid-2">
-					<img src="img/re.png">
+				
+					<img src="img/circleportrait.png">
 					<h2>mehdi</h2>
 					<p>You can use this as a place to put recommendations, accolades and testimonials</p>
 				</div>
 				
-			</div>
+			
 		</section>
 	</div> <!-- End container-->
 	
@@ -74,12 +78,14 @@
 		<div class="container">
 			<div class="row">
 				<div class="grid-3">
-					<img src="img/spotlight.jpg">
+                                                     
+					<img src="img/Octocat.png">
 				</div>
 				<div class="grid-3">
-					<h1>Project Spotlight</h1>
+				
+					<h1>Project</h1>
 					<p>Give a brief description of what this project is and what role you played. It can also be helpful to include a link</p>
-					<a href="https://github.com/Mehdi-gh">View Project</a>
+					<a href="https://github.com/Mehdi-gh">View Profile</a>
 				</div>
 			</div>
 		</div>
@@ -126,7 +132,7 @@
 						<li>java</li>
 						<li>Design Pattern</li>
 						<li>Db Design</li>
-						<li>Few php,C#<li>
+						<li>Few php,C#</li>
 						<li>HTML</li>
 						<li>CSS</li>
 						<li>Javascript</li>
@@ -137,14 +143,29 @@
 				</div>
 				
 				<div class="grid-4">
-					<h1>In Conclusion</h1>
-					<p>
-						This is a good spot to highlight experiance and skills. Make sure to include a call to action like a link to your website, or your email address.
-						If you find bugs, want features, or have questions, feel free to submit an <a href="https://github.com/Mehdi-gh">issue</a>. You are free to use without attribution.
-						If you're ok sharing, I would love seeing what you make! Shoot me an
-						<a href="mailto:mehdi.pro.mlm@gmail.com?Subject=Responsive%20Resume" target="_top">email</a> or
-						<!--<a href="http://www.twitter.com/philipcdavis">tweet</a> at me.-->
-					</p>
+					<h1>Contact</h1>
+					<div id="form-main">
+										<div id="form-div">
+										<form class="form" id="form1">
+											
+											<p class="name">
+											<input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+											</p>
+											
+											<p class="email">
+											<input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+											</p>
+											
+											<p class="text">
+											<textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+											</p>
+											
+											<div class="submit">
+											<input type="submit" value="SEND" id="button-blue"/>
+											<div class="ease"></div>
+											</div>
+										</form>
+										</div>
 				</div>
 			</div>
 		</section>
@@ -153,6 +174,7 @@
 		
 		<!--Footer-->
 		<footer class="center">
+		
 			<hr>
 			<span>&copy; mehdi 2016</span>
 		</footer>
