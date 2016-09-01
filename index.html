@@ -6,11 +6,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<!--Custom fonts. To improve load times, remove this and update the h1 styling in style.css--> 
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<!-- stylesheets -->
 	<link rel="stylesheet" href="style.css" type="text/css" />
 	<link rel="stylesheet" href="circlecovia.css" type="text/css" />
 	<link rel="stylesheet" href="styleCloude.css" type="text/css" />
 	<link rel="stylesheet" href="styleContact.css" type="text/css" />
+	<link rel="stylesheet" href="sass.css" type="text/css" />
 
 	<!-- favicon -->
 	<link rel="shortcut icon" href="img/favicon.ico">
@@ -21,15 +23,18 @@
 </head>
 
 <body>
+	<script src="js/network.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/timeline.js" type="text/javascript" charset="utf-8"></script>
 	
 	<!-- Header-->
 	<header>
-    
+	<div id="particles-js">
 		<h1>covia</h1>
 		<p>android,ios,web development</p>
 		<div class="icon">
-  <div class="circle"></div>
-  <div class="circle2"></div>
+		<div class="circle"></div>
+		<div class="circle2"></div>
+		</div>
 </div>
 	</header>
 	
@@ -66,7 +71,7 @@
 				
 					<img src="img/circleportrait.png">
 					<h2>mehdi</h2>
-					<p>You can use this as a place to put recommendations, accolades and testimonials</p>
+					<p>born in iran  1994/6/21</p>
 				</div>
 				
 			
@@ -96,29 +101,53 @@
 	<div class="container">
 	
 		<section class="education">	
-			<h2>B.S. Information Systems and Operations Management from the University of Maryland.</h2>
+			<h2>timeline</h2>
 		</section>
 		
-		<hr>
-			
-		<!--Experience Tables-->
-		<section class="experience">
-			<div class="row">
-				<div class="grid-2">
-					<h2>Covia</h2>
-					<p>Nov. 2014 - Dec. 2016</p>
-				</div>
-				<div class="grid-4">
-					<ul>
-						<li>convert vison into action</li>
-						<li>...</li>
-						<li>..</li>
-					</ul>
-				</div>
+		<ul class="timeline">
+		<!-- Item 1 -->
+	<li>
+		<div class="direction-l">
+			<div class="flag-wrapper">
+				<span class="flag">covia co</span>
+				<span class="time-wrapper"><span class="time">2015 - present</span></span>
 			</div>
+			<div class="desc">convert vision into idea</div>
+		</div>
+	</li>
+	<!-- Item 1 -->
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag">Azad University</span>
+				<span class="time-wrapper"><span class="time">2014 - present</span></span>
+			</div>
+			<div class="desc">Software Engineering</div>
+		</div>
+	</li>
+	<!-- Item 2 -->
+	<li>
+		<div class="direction-l">
+			<div class="flag-wrapper">
+				<span class="flag">Freelancer</span>
+				<span class="time-wrapper"><span class="time">2013 - 2014</span></span>
+			</div>
+			<div class="desc">work on android and windows platforms,and coding with Java,C++,C#,,...</div>
+		</div>
+	</li>
+	<!-- Item 3 -->
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag">Rajaei University</span>
+				<span class="time-wrapper"><span class="time">2011 - 2013</span></span>
+			</div>
+			<div class="desc">Computer Engineering </div>
+		</div>
+	</li>
+
+</ul>
 		
-			
-		</section>
 		
 		<hr>
 		
@@ -142,24 +171,19 @@
 					</ul>
 				</div>
 				
-				<div class="grid-4">
-					<h1>Contact</h1>
+				<div class="grid-4">				
 					<div id="form-main">
 										<div id="form-div">
 										<form class="form" id="form1">
-											
 											<p class="name">
 											<input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
-											</p>
-											
+											</p>										
 											<p class="email">
 											<input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
-											</p>
-											
+											</p>											
 											<p class="text">
 											<textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
-											</p>
-											
+											</p>											
 											<div class="submit">
 											<input type="submit" value="SEND" id="button-blue"/>
 											<div class="ease"></div>
