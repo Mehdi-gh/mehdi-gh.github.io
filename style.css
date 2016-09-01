@@ -228,6 +228,11 @@ footer hr {
   margin-bottom: 0;
   text-align: center;
   margin: 0 auto;
+  
+}
+.education h2 {
+	font-size: 112.5%;font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
 }
 
 @media screen and (min-width: 40em) {
