@@ -11,7 +11,7 @@ body {
   background-color: #fff;
   color: #666;
 }
-
+  
 h1, h2, h3 {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
@@ -161,7 +161,7 @@ footer hr {
 .row:after {
     clear: both;
 }
-
+ 
 /**
  * For IE 6/7 only
  */
@@ -251,7 +251,7 @@ footer hr {
 
 .testimonial img {
   height: 10em;
-  border-radius: 3px;
+  border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
   display: block;
