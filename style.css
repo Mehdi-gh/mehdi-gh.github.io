@@ -92,12 +92,6 @@ section h1 {
   margin-bottom: .6em;
 }
 
-/* Same font-size and line-height as p element */
-section ul li, section ol li {
-  font-size: 1em;
-  margin-left: -10px;
-  line-height: 1.8;
-}
 
 footer {
   margin-bottom: 1em;
@@ -134,6 +128,46 @@ footer hr {
 	 width:100%;
 	  text-align: center;position: relative;
 	  
+}
+/*sohcial*//
+header div.social{
+
+	   text-align: center;
+	 position: relative;
+	text-decoration:none;
+}
+header div ul{
+	 height: 100%;
+    list-style: none;
+}
+header div ul li{
+ 
+    margin-left: 35px;
+    font-size: 16px;
+    font-family: 'lato_regular', arial;
+    letter-spacing: 1px;
+	color: #fff;
+}
+
+header ul.social{
+	 height: 30%;
+	 width:100%;
+    float: left;
+    list-style: none;
+    margin-top: 5px;
+	
+}
+
+header ul.social li{
+    float: center;
+    margin-left: 110px;
+}
+
+header ul.social li a{
+    display: block;
+    width: 35px;
+    height: 35px;
+     color: #fff;
 }
 
 /* ------------------- Grid -------------------*/
